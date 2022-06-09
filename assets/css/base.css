@@ -10,3 +10,13 @@
     border: none;
     text-transform: capitalize;
 }
+
+:root {
+    --color-primary: #E53935;
+    --color-secondary: #eee;
+    --color-border: #333;
+}
+
+html {
+    font-size: 62.5%;
+}
