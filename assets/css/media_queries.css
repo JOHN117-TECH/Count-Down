@@ -7,6 +7,11 @@
         padding: 3rem;
     }
 
+    .container--btn {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
     .container__content {
         flex: 1 0 100%;
         text-align: center;
@@ -33,7 +38,6 @@
     .container {
         padding: 20px;
     }
-
 
     .container__content--title {
         text-align: start;

@@ -7,7 +7,28 @@
     min-height: 100vh;
     gap: 1rem;
     padding-bottom: 5rem;
+    position: relative;
 }
+
+.container--btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 2.5rem;
+    padding: 2rem;
+    background: var(--color-primary);
+    border-radius: 50%;
+}
+
+.container--btn:hover {
+    cursor: pointer;
+}
+
+.container--btn i {
+    font-size: 2rem;
+    color: white;
+}
+
 
 .container__content {
     flex: 1 1 25rem;

@@ -9,14 +9,43 @@
     outline: none;
     border: none;
     text-transform: capitalize;
+    transition: all .2s ease-in-out;
 }
 
 :root {
-    --color-primary: #E53935;
+    --color-primary: #0000FF;
     --color-secondary: #eee;
     --color-border: #333;
 }
 
 html {
     font-size: 62.5%;
+}
+
+.body.Purple {
+    --color-primary: #6C3483;
+}
+
+.body.Red {
+    --color-primary: #E53935;
+}
+
+.body.Yellow {
+    --color-primary: #FFEB3B;
+}
+
+.body.Green {
+    --color-primary: #2ECC71;
+}
+
+.body.Blue {
+    --color-primary: #3498DB;
+}
+
+.body.Blue-Dark {
+    --color-primary: #0000FF;
+}
+
+.body.Orange {
+    --color-primary: #FF9800;
 }
